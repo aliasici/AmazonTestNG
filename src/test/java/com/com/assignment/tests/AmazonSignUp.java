@@ -1,13 +1,14 @@
 package com.com.assignment.tests;
 
-import com.assignment.pages.AmazonRegister;
-import com.assignment.utilities.BrowserUtils;
-import com.assignment.utilities.Driver;
+import com.com.assignment.pages.AmazonRegister;
+import com.com.assignment.utilities.BrowserUtils;
+import com.com.assignment.utilities.Driver;
 import org.testng.annotations.Test;
 
 public class AmazonSignUp {
 
     AmazonRegister page = new AmazonRegister();
+
 
     @Test
     public void UserName(){
