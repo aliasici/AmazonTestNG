@@ -2,6 +2,7 @@ package com.com.assignment.tests;
 
 import com.com.assignment.pages.AmazonRegister;
 import com.com.assignment.utilities.BrowserUtils;
+import com.com.assignment.utilities.ConfigurationReader;
 import com.com.assignment.utilities.Driver;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,7 @@ public class AmazonSignUp {
     @Test
     public void UserName(){
 
-        Driver.getDriver().get("https://www.amazon.com/");
+        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 
         BrowserUtils.wait(2);
 
