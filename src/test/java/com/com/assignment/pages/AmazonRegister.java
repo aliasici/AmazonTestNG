@@ -18,7 +18,7 @@ public class AmazonRegister {
     @FindBy(id = "nav-orders")
     public WebElement signIn;
 
-    @FindBy(id = "auth-create-account-link")
+    @FindBy(id = "createAccountSubmit")
     public WebElement createAccount;
 
     @FindBy(id ="ap_customer_name")
