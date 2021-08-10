@@ -32,6 +32,12 @@ public class EtsyDropdown {
     //BU ISI BASARACAGIM
     //OLACAK INS
 
+    //ILLAKI BASARACAGIM
+    // haddddddddddddii
+    //git ali
+    //hadiiiiii
+
+
 //    public void setDropdown(){
 //        Select select = new Select(dropdown);
 //        select.selectByVisibleText("Gold");
