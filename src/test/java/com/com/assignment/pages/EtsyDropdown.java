@@ -32,10 +32,7 @@ public class EtsyDropdown {
     //BU ISI BASARACAGIM
     //OLACAK INS
 
-    //ILLAKI BASARACAGIM
-    // haddddddddddddii
-    //git ali
-    //hadiiiiii
+
 
 
 //    public void setDropdown(){
