@@ -29,13 +29,7 @@ public class EtsyDropdown {
     @FindBy(xpath = "//h1[@class='wt-text-heading-01']")
     public WebElement itemText;
     
-    //BU ISI BASARACAGIM
-    //OLACAK INS
-
-    //ILLAKI BASARACAGIM
-    // haddddddddddddii
-    //git ali
-    //hadiiiiii
+   
 
 
 //    public void setDropdown(){
