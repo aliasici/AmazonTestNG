@@ -28,6 +28,8 @@ public class EtsyDropdown {
 
     @FindBy(xpath = "//h1[@class='wt-text-heading-01']")
     public WebElement itemText;
+    
+    //BU ISI BASARACAGIM
 
 //    public void setDropdown(){
 //        Select select = new Select(dropdown);
