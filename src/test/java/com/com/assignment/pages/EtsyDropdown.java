@@ -30,6 +30,7 @@ public class EtsyDropdown {
     public WebElement itemText;
     
     //BU ISI BASARACAGIM
+    //OLACAK INS
 
 //    public void setDropdown(){
 //        Select select = new Select(dropdown);
