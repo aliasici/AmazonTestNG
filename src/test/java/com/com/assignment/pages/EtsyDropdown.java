@@ -29,6 +29,8 @@ public class EtsyDropdown {
     @FindBy(xpath = "//h1[@class='wt-text-heading-01']")
     public WebElement itemText;
 
+    //ILLAKI BASARACAGIM
+
 //    public void setDropdown(){
 //        Select select = new Select(dropdown);
 //        select.selectByVisibleText("Gold");
