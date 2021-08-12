@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 public class IsSelected_clear_IsEnabled {
     //BASARACAGIM INSALLAH
+    //conflict
 
     @Test
     public void test1(){
