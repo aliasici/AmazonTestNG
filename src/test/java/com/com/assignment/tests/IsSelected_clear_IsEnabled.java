@@ -11,6 +11,7 @@ public class IsSelected_clear_IsEnabled {
     //BASARACAGIM INSALLAH
     // no CONFLICT
 
+
     @Test
     public void test1(){
 
