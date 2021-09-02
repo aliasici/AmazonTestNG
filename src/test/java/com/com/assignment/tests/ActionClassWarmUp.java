@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import static com.com.assignment.utilities.Driver.getDriver;
 
@@ -24,6 +25,9 @@ public class ActionClassWarmUp {
 
         actions.click(singleClick).perform();
         Thread.sleep(3);
+
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertTrue(3>9);
 
 
         Driver.closeDriver();

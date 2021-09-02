@@ -18,7 +18,7 @@ public class EtsyDropdown {
 //    @FindBy(xpath= "//img[@class='wt-width-full wt-height-full wt-display-block wt-position-absolute  ']") // SUPER ELEMENT SAYSISINDAN BULDUK
 //    public WebElement gifts;
 
-    @FindBy(xpath= "(//a[@target='etsy.1025247774'])[2]") //select[@id='inventory-variation-select-0']
+    @FindBy(xpath= "(//a[@data-shop-id='20874736'])[1]") //select[@id='inventory-variation-select-0']
     public WebElement giftItem;
 
 
@@ -32,6 +32,7 @@ public class EtsyDropdown {
 
     //BU ISI BASARACAGIM
     //OLACAK INS
+    // OLACAK CANIM
 
 
 
