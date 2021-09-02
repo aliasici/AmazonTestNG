@@ -32,7 +32,7 @@ public class EtsyDropdown {
 
     //BU ISI BASARACAGIM
     //OLACAK INS
-    // OLACAK CANIM
+    // OLACAK CANIM olacak mi bakalim
 
 
 
