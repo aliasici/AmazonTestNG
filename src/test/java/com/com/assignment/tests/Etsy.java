@@ -8,6 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -53,6 +54,31 @@ public class Etsy {
             BrowserUtils.wait(2);
 
             Driver.closeDriver();
+
+
+    }
+
+    @Test
+    public void test2(){
+      Driver.getDriver().get("https://www.google.com");
+
+      String actualTitle = Driver.getDriver().getTitle();
+
+      Assert.assertEquals(actualTitle,"Google");
+
+    }
+    @Test
+    public void test3(){
+        Driver.getDriver().get("https://www.wikipedia.org/");
+        WebElement search = Driver.getDriver().findElement(By.id("searchInput"));
+
+        search.sendKeys("John Travolta"+Keys.ENTER);
+
+        String actualTitle = Driver.getDriver().getTitle();
+
+        Assert.assertTrue(actualTitle.contains("John"));
+        
+        Driver.closeDriver();
 
 
     }
